@@ -1,0 +1,12 @@
+data/chroma/
+data/catalog.db
+data/raw/*
+!data/raw/.gitkeep
+__pycache__/
+*.pyc
+.venv/
+frontend/node_modules/
+frontend/dist/
+.env
+*.egg-info/
+.playwright/

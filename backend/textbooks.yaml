@@ -1,0 +1,23 @@
+# Add open-textbook URLs, then run from backend/:
+#   python -m ingest.run --id <id>
+textbooks:
+  - id: fixture-algebra
+    title: "Fixture: Introductory Algebra"
+    subject: algebra
+    source_url: null
+    fixture: true
+  - id: openstax-calculus
+    title: OpenStax Calculus Volume 1
+    subject: calculus
+    source_url: ""
+    fixture: false
+  - id: openstax-algebra
+    title: OpenStax Intermediate Algebra
+    subject: algebra
+    source_url: ""
+    fixture: false
+  - id: openstax-precalculus
+    title: OpenStax Precalculus
+    subject: precalculus
+    source_url: ""
+    fixture: false
